@@ -14,21 +14,49 @@
 
   <div class="post-content" itemprop="articleBody">
     <div class="row">
-    <div class="col-md-8">{{ post.description | markdownify }}</div>
-    <div class="col-md-4">
-      {% if post.inspiration.size > 0 %}
-        <div class="well">
-          <h4>Inspiration and references</h4>
-          <ul>
-            {% for item in post.inspiration %}
-              <li>{{ item | markdownify }}</li>
-            {% endfor %}
-          </u>
+      <div class="col-md-8">{{ post.description | markdownify }}</div>
+      <div class="col-md-4">
+        {% if post.inspiration.size > 0 %}
+          <div class="well">
+            <h4>Inspiration and references</h4>
+            <ul>
+              {% for item in post.inspiration %}
+                <li>{{ item | markdownify }}</li>
+              {% endfor %}
+            </u>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    {{ post.content }}
+
+    <div class="row">
+      {% if post.interruptions.size > 0 %}
+        <div class="col-md-6">
+          <div class="well">
+            <h4>Interruptions</h4>
+            <ul>
+              {% for item in post.interruptions %}
+                <li>{{ item | markdownify }}</li>
+              {% endfor %}
+            </u>
+          </div>
+        </div>
+      {% endif %}
+      {% if post.reflections.size > 0 %}
+        <div class="col-md-6">
+          <div class="well">
+            <h4>Reflections</h4>
+            <ul>
+              {% for item in post.reflections %}
+                <li>{{ item | markdownify }}</li>
+              {% endfor %}
+            </u>
+          </div>
         </div>
       {% endif %}
     </div>
-    </div>
-    {{ post.content }}
   </div>
 
 </article>
