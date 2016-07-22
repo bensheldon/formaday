@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Survey or Instruction
+title: Survey or Instruction
 date: 2016-07-18 07:16:00 -0700
 categories:
 description: >
@@ -17,7 +17,7 @@ interruptions:
   - Appropriateness of [Fieldsets/legends for wrapping radio button groups](https://www.w3.org/TR/WCAG20-TECHS/H71.html) and oddness of Bootstrap styling
 reflections:
   - I wonder why Bootstrap doesn't have a good style for Radio button groups?
-  - There is an [English StackExchange Q&A](http://english.stackexchange.com/questions/193527/person-who-fills-out-a-form-single-word) to answer: preparer, respondent, responder, submitter
+  - "There is an [English StackExchange Q&A](http://english.stackexchange.com/questions/193527/person-who-fills-out-a-form-single-word) to answer: preparer, respondent, responder, submitter"
 ---
 
 <div class="row">
