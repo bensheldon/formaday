@@ -59,7 +59,7 @@ reflections:
           <div class="form-group">
             <label>Solution</label>
             <textarea class="form-control" name="solution" id="solution" aria-describedby="solution-help" placeholder=""></textarea>
-            <span id="problem-help" class="help-block">
+            <span id="solution-help" class="help-block">
               Describe how your product elegantly solves the problem.
             </span>
           </div>
