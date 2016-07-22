@@ -3,9 +3,9 @@ layout: post
 title:  So you made a form today
 date: 2016-07-16 08:50:21 -0700
 categories:
-description: >
+description: |
   I struggled a lot with yesterday's form (the first form!) because I was constantly thinking that it wasn't good enough: horizontal spacing? placeholder and help-text voice? more pre- and post-submission context?
-   That's a common problem when doing something simple. A tactic for moving forward is to have a "parking lot" to safely capture those thoughts and doubts without the obligation of representing them in the final product.
+  That's a common problem when doing something simple. A tactic for moving forward is to have a "parking lot" to safely capture those thoughts and doubts without the obligation of representing them in the final product.
 inspiration:
   - '[Improving productivity with a parking lot](http://www.avasbutler.com/20-techniques-to-improve-meeting-productivity-5-of-20-parking-lot/#.V4pZYpMrJE4)'
   - '[Wikipedia on Mindfulness](https://en.wikipedia.org/wiki/Mindfulness)'

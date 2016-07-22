@@ -3,7 +3,7 @@ layout: post
 title:  Did you make a form today?
 date: 2016-07-15 07:57:09 -0700
 categories:
-description: >
+description: |
   I created this form as a starting place for creating further forms. Web forms are complex but also are the most common interface for capturing information in my daily life.
   As a web developer, I spend a lot of time balancing effectiveness, usability, aesthetics and accessibility (and a several other adjectives probably).
   This is an opportunity to improve my craft.
