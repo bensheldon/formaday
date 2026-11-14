@@ -1,4 +1,4 @@
-export VERSION=1.12.3
+export VERSION=3.7.1
 
 # Cleanup source directories
 rm -rf assets/javascripts/vendor/jquery.min.js
